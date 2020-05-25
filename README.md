@@ -1,13 +1,18 @@
 # ObeyTheTestingGoat-my-try
+## Useful Commands and Concepts
 
-### Rules: 
-**1. The Unit-Test/Code Cycle**
-We can start to settle into the TDD unit-test/code cycle now:
+* Running the Django dev server
+`python manage.py runserver`
 
-In the terminal, run the unit tests and see how they fail.
+* Running the functional tests
+`python functional_tests.py`
 
-In the editor, make a minimal code change to address the current test failure.
+* Running the unit tests
+`python manage.py test`
 
-And repeat!
+* The unit-test/code cycle
+1. Run the unit tests in the terminal.
 
-**2. **
+2. Make a minimal code change in the editor.
+
+3. Repeat!
