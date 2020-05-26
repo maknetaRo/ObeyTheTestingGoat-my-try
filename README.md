@@ -3,7 +3,6 @@
 python3.6, django1.11
 activate virtualenv `source virtualenv/bin/activate`
 
-
 ## Useful Commands and Concepts
 
 - Running the Django dev server
@@ -56,3 +55,11 @@ A rule of thumb for when to remove duplication from code. When two pieces of cod
 #### The scratchpad to-do list
 
 A place to write down things that occur to us as we’re coding, so that we can finish up what we’re doing and come back to them later.
+
+- delet the databese and re-create fresh
+  `rm db.sqlite3`
+  `python manage.py migrate --noinput`
+
+* Finished chapter 5.
+* About to start ch.6 Improving Functional Test
+  https://www.obeythetestinggoat.com/book/chapter_explicit_waits_1.html
