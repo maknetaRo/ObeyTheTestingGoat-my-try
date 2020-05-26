@@ -1,5 +1,9 @@
 # ObeyTheTestingGoat-my-try
 
+python3.6, django1.11
+activate virtualenv `source virtualenv/bin/activate`
+
+
 ## Useful Commands and Concepts
 
 - Running the Django dev server
